@@ -42,13 +42,13 @@ class MCPServer {
         tools: [
           {
             name: 'auto_analyze_image',
-            description: '自动获取并分析图片（支持文件路径或剪贴板）',
+            description: '自动获取并分析图片（支持文件路径、网络URL或剪贴板）',
             inputSchema: {
               type: 'object',
               properties: {
                 imagePath: {
                   type: 'string',
-                  description: '图片文件路径（可选，不提供则使用剪贴板）',
+                  description: '图片文件路径或网络URL（可选，不提供则使用剪贴板）',
                 },
                 focusArea: {
                   type: 'string',
