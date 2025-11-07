@@ -2,6 +2,10 @@
 
 基于 GLM-4.5V 模型的 MCP (Model Context Protocol) 服务器，提供智能图片分析功能，支持文件路径和剪贴板两种输入方式。
 
+<a href="https://glama.ai/mcp/servers/@lengbone/mcp-vl">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@lengbone/mcp-vl/badge" alt="Visual Language MCP server" />
+</a>
+
 ## 功能特性
 
 - 🤖 **智能获取**: 自动从文件路径或剪贴板获取图片
